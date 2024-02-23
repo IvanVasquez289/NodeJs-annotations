@@ -1,4 +1,4 @@
-const {getAge,uuidv4} = require('./plugins')
+// const {getAge,uuidv4} = require('./plugins')
 
 // const {emailTemplate} = require('./js-foundation/01-template')
 // require('./js-foundation/02-destructuring')
@@ -6,10 +6,10 @@ const {getAge,uuidv4} = require('./plugins')
 // const {getUserById} = require('./js-foundation/04-arrow')
 // const {makeBuildPerson} = require('./js-foundation/05-factory')
 // const getPokemonById = require('./js-foundation/06-promises')
-const {buildLogger} = require('./plugins')
-const logger = buildLogger('app.js')
-logger.log('Hola mundo')
-logger.error('Este es un error')
+// const {buildLogger} = require('./plugins')
+// const logger = buildLogger('app.js')
+// logger.log('Hola mundo')
+// logger.error('Este es un error')
 
 // getPokemonById(5,(pokemon)=>{
 //     console.log(pokemon)
