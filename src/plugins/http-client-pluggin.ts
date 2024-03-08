@@ -6,8 +6,14 @@ export const httpClientPluggin = {
         // const resp = await fetch(url)
         // return await resp.json()
     },
-    post: async(url: string,body: any) => {},
-    put: async(url: string,body: any) => {},
-    delete: async(url: string) => {},
+    post: async(url: string,body: any) => {
+        throw new Error('Not implemented yet')
+    },
+    put: async(url: string,body: any) => {
+        throw new Error('Not implemented yet')
+    },
+    delete: async(url: string) => {
+        throw new Error('Not implemented yet')
+    },
 
 }

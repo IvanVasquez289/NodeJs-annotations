@@ -11,7 +11,7 @@ describe('Test in the app file', () => {
         const result = num1 + num2;
 
         // 3. Assert
-        expect(result).toBe(35)
+        expect(result).toBe(30)
 
     })
 })

@@ -19,6 +19,13 @@ export const getUserById =(id: number, callback: (error?: string,user?: User) =>
         return  user.id === id;
     });
 
+    // if(!user){
+    //     setTimeout(() => {
+    //         callback(`USUARIO no encontraado ${id}`)
+    //     }, 2500);
+    //     return
+    // }
+    
     if(!user){
         return callback(`USUARIO no encontraado ${id}`)
     }
